@@ -71,7 +71,7 @@ className="w-full h-[354px] object-contain"
   style={{ objectPosition: '50% 50%' }}
  /> */}
    <img
- src="/perfume1.jpg" 
+ src="/g.png" 
 alt="Safe Water"
  className="w-full h-[354px] object-cover"
  style={{ objectPosition: '20% 50%' }}
@@ -87,3 +87,5 @@ alt="Safe Water"
 };
 
 export default Cards;
+
+
