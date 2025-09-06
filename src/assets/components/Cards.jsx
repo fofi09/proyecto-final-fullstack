@@ -41,7 +41,7 @@ const Cards = () => {
       </div>
 
       {/* Columna derecha: Tarjeta grande */}
-      <div className="w-[435px] md:ml-[130px] md:mr-0">
+      <div className="w-[450px] md:ml-[130px] md:mr-0">
         <div className="bg-white overflow-hidden flex flex-col border-b-[8px] border-white">
           {/* <img
             src="/perfume1.jpg" 
@@ -56,12 +56,12 @@ const Cards = () => {
   style={{ objectPosition: 'top-center-bottom' }}
 
 
- {/* <img
-            src="/perfume1.jpg" 
-            alt="Safe Water"
-            className="w-full object-cover"
-            style={{ height: '355px', objectPosition: 'center' }}
-          /> */}
+//  {/* <img
+//             src="/perfume1.jpg" 
+//             alt="Safe Water"
+//             className="w-full object-cover"
+//             style={{ height: '355px', objectPosition: 'center' }}
+//           /> */}
 
           {/* <img
  src="/perfume2.jpg" 
@@ -76,6 +76,9 @@ alt="Safe Water"
  className="w-full h-[354px] object-cover"
  style={{ objectPosition: '20% 50%' }}
  />
+
+
+
           <p className="mt-2 text-sm font-semibold text-gray-800 p-2">Safe Water</p>
           <a href="#" className="mt-auto text-sm font-medium text-emerald-700 hover:text-emerald-800 self-start">
               View All Campaign
