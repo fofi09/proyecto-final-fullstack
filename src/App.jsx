@@ -3,6 +3,7 @@ import Hero from './assets/components/Hero';
 import Stats from './assets/components/Stats';
 import Cards from './assets/components/cards';
 import AboutUs from './assets/components/AboutUs';
+import Testimonial from './assets/components/Testimonial';
 
 
 
@@ -13,6 +14,7 @@ function App() {
             <Stats />
             <Cards />
              <AboutUs />
+            <Testimonial />
         </div>
     );
 }
