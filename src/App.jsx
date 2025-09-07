@@ -4,6 +4,7 @@ import Stats from './assets/components/Stats';
 import Cards from './assets/components/cards';
 import AboutUs from './assets/components/AboutUs';
 import Testimonial from './assets/components/Testimonial';
+import CallToAction from './assets/components/CallToAction';
 
 
 
@@ -15,6 +16,7 @@ function App() {
             <Cards />
              <AboutUs />
             <Testimonial />
+            <CallToAction />
         </div>
     );
 }

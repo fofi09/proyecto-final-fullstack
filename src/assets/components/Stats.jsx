@@ -6,7 +6,7 @@ const Stats = () => {
       className="bg-emerald-900 text-white py-8 md:py-12 relative overflow-hidden"
       style={{
         backgroundImage: `
-          url("data:image/svg+xml,%3Csvg width='1200' height='300' viewBox='0 0 1200 300' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3C!-- Elipse superior izquierda (ajustada para ser más alta) --%3E%3Cellipse cx='100' cy='-15' rx='60' ry='90' fill='rgba(255, 255, 255, 0.1)'/%3E%3C!-- Elipse superior derecha (no modificada) --%3E%3Cellipse cx='1425' cy='10' rx='50' ry='70' fill='rgba(255, 255, 255, 0.1)'/%3E%3C!-- Elipse inferior izquierda (no modificada) --%3E%3Cellipse cx='-590' cy='280' rx='40' ry='70' fill='rgba(255, 255, 255, 0.1)'/%3E%3C!-- Elipse inferior derecha (no modificada) --%3E%3Cellipse cx='750' cy='280' rx='50' ry='80' fill='rgba(255, 255, 255, 0.1)'/%3E%3C/svg%3E")
+          url("data:image/svg+xml,%3Csvg width='1200' height='300' viewBox='0 0 1200 300' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3C!-- Elipse superior izquierda (ajustada para ser más larga) --%3E%3Cellipse cx='100' cy='-15' rx='50' ry='100' fill='rgba(255, 255, 255, 0.1)'/%3E%3C!-- Elipse superior derecha --%3E%3Cellipse cx='1425' cy='10' rx='50' ry='70' fill='rgba(255, 255, 255, 0.1)'/%3E%3C!-- Elipse inferior izquierda --%3E%3Cellipse cx='-590' cy='280' rx='50' ry='70' fill='rgba(255, 255, 255, 0.1)'/%3E%3C!-- Elipse inferior derecha --%3E%3Cellipse cx='750' cy='280' rx='50' ry='70' fill='rgba(255, 255, 255, 0.1)'/%3E%3C/svg%3E")
         `,
         backgroundPosition: 'center',
         backgroundRepeat: 'no-repeat',
