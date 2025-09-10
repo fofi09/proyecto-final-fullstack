@@ -13,9 +13,9 @@ const CallToAction = () => {
         backgroundSize: '100% 100%',
       }}
     >
-      <div className="container mx-auto px-4 md:px-16 flex flex-col md:flex-row items-center justify-between z-10 relative">
-        {/* Contenedor del texto */}
-        <div className="flex flex-col mb-8 md:mb-0">
+      <div className="container mx-auto px-4 md:px-16 flex flex-col md:flex-row items-center z-10 relative">
+        {/* Contenedor del texto (NO SE TOCA) */}
+        <div className="flex flex-col mb-8 md:mb-0 md:-ml-8">
           <h2 className="text-3xl md:text-5xl lg:text-6xl font-bold leading-tight">
             Let's Help Other With
           </h2>
@@ -23,13 +23,13 @@ const CallToAction = () => {
             Your Charity
           </h2>
         </div>
+      </div>
 
-        {/* Contenedor del botón */}
-        <div>
-          <button className="bg-yellow-400 text-black font-semibold py-3 px-8 rounded-lg shadow-md hover:bg-yellow-500 transition-colors">
-            Donate Now
-          </button>
-        </div>
+      {/* Botón ABSOLUTO pegado a la derecha */}
+      <div className="absolute top-1/2 right-20 transform -translate-y-1/2">
+        <button className="bg-yellow-400 text-black font-semibold py-3 px-10 rounded-none shadow-md hover:bg-yellow-500 transition-colors">
+          Donate Now
+        </button>
       </div>
     </section>
   );

@@ -19,7 +19,6 @@ function App() {
              <AboutUs />
              <Team />
             <Testimonial />
-                <Footer />
             <CallToAction />
             <Footer />
         </div>
