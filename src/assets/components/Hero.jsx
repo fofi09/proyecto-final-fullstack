@@ -11,8 +11,8 @@ const Hero = () => {
                     <img src="/ta.png" alt="Logo de la marca" className="h-auto w-12 mb-2 md:mb-4" />
                     
                     <div className="mt-12 md:-mt">
-                        {/* AUMENTO DEL TAMAÑO DEL TÍTULO */}
-                        <h1 style={{ fontFamily: 'Caprasimo, serif' }} className="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900 mb-4 md:mb-12">
+                        {/* TÍTULO CON RECOLETA */}
+                        <h1 style={{ fontFamily: 'Recoleta semi bond' }} className="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900 mb-4 md:mb-12">
                             Charity Is An <br />
                             Act Of A Soft <br /> Heart.
                         </h1>
@@ -51,7 +51,7 @@ const Hero = () => {
                     </div>
                 </div>
                 <div className="mt-8 md:mt-12 flex flex-col md:flex-row gap-6 md:gap-24 text-sm font-medium text-gray-700">
-                    {/* gap es lo q hace la separacion entre youtube instagram y face, creo q es 28 y 32 */}
+                    {/* gap es lo q hace la separacion entre youtube instagram y face */}
                     <a href="#">Youtube</a>
                     <a href="#">Facebook</a>
                     <a href="#">Instagram</a>
