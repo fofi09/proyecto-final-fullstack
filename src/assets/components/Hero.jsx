@@ -67,7 +67,7 @@ const Hero = () => {
                     <img
                         src="/h1.jpg"
                         alt="Charity scene"
-                        className="h-full md:h-[540px] md:w-[595px] shadow-xl"
+                        className="h-full md:h-[580px] md:w-[595px] shadow-xl"
                     />
                 </div>
             </div>
