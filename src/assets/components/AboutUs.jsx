@@ -2,14 +2,14 @@ import React from 'react';
 
 const AboutUs = () => {
   return (
-    <section className="bg-[#FAF8F1] py-16 px-4 md:px-16 flex justify-center">
+    <section className="bg-[#F9F5E8] py-16 px-4 md:px-16 flex justify-center">
       {/* Desplazamos TODO el bloque un poco a la derecha */}
       <div className="flex flex-col md:flex-row items-center w-full max-w-6xl relative ml-4 md:ml-8">
         
         {/* Columna Izquierda: Imagen */}
         <div className="w-full md:w-2/5 flex justify-start z-10 -ml-0 md:-ml-12">
           <img
-            src="/circular.jpg" 
+            src="/señores1.jpg" 
             alt="Dos personas sonriendo"
             className="w-full h-auto object-cover rounded-t-[50%] shadow-lg -mt-16 md:mt-0"
           />

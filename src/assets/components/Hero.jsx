@@ -5,22 +5,32 @@ const Hero = () => {
     return (
         <header className="w-full flex flex-col md:flex-row">
             {/* Columna izquierda (fondo beige) */}
-            <div className="w-full md:w-1/2 bg-[#FAF8F1] px-4 py-8 md:px-16 md:py-12 flex flex-col justify-between min-h-screen">
+            <div className="w-full md:w-1/2 bg-[#F9F5E8] px-4 py-8 md:px-16 md:py-12 flex flex-col justify-between min-h-screen">
                 <div>
-                    <div className="text-xl font-bold tracking-wider mb-2 md:mb-4">Ta</div>
-                    {/* HE AJUSTADO EL VALOR DEL MARGEN SUPERIOR PARA SUBIR EL TÍTULO */}
+                    {/* Reemplazado el texto "Ta" por la imagen */}
+                    <img src="/ta.png" alt="Logo de la marca" className="h-auto w-12 mb-2 md:mb-4" />
+                    
                     <div className="mt-12 md:-mt">
-                        <h1 className="text-3xl md:text-5xl font-extrabold leading-tight text-gray-900 mb-4 md:mb-12">
-                            Charity Is An <br className="md:hidden" /> Act Of A Soft <br /> Heart.
+                        {/* AUMENTO DEL TAMAÑO DEL TÍTULO */}
+                        <h1 style={{ fontFamily: 'Recoleta semi bond' }} className="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900 mb-4 md:mb-12">
+                            Charity Is An <br />
+                            Act Of A Soft <br /> Heart.
                         </h1>
                         <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-8 max-w-md">
-                            We've spent the last 5 years helping over 25,00000 teams just like yourself create and sustain successful online support.
+                            We've spent the last 5 years helping over 25,00000 <br/>
+                            teams just like yourself create and sustain  <br/>
+                            successful online support.
                         </p>
                         <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
-                            <button className="w-full md:w-auto bg-emerald-700 text-white font-semibold px-6 py-3 rounded-md shadow hover:bg-emerald-800">
+                            <button className="w-full md:w-auto bg-[#036F59] text-white font-semibold px-6 py-3 rounded-none shadow hover:bg-emerald-800">
                                 Donate Now
                             </button>
-                            <div className="relative flex-shrink-0 w-28 h-28 flex items-center justify-center">
+
+                            {/* ESTA ES LA ÚNICA LÍNEA DE CÓDIGO QUE AGREGAMOS */}
+                            <img src="/flecha.png" alt="Icono de la gorra" className="w-16 h-16" />
+                            
+                            <div className="relative flex-shrink-0 w-28 h-28 flex items-center justify-center ml-1">
+                                {/* aqui arriba ml controla en q posicion estara td  */}
                                 <svg viewBox="0 0 100 100" className="absolute inset-0 w-full h-full">
                                     <defs>
                                         <path id="circle" d="M 50, 50 m -40, 0 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0"></path>
@@ -40,7 +50,8 @@ const Hero = () => {
                         </div>
                     </div>
                 </div>
-                <div className="mt-8 md:mt-12 flex flex-col md:flex-row gap-4 md:gap-10 text-sm font-medium text-gray-700">
+                <div className="mt-8 md:mt-12 flex flex-col md:flex-row gap-6 md:gap-24 text-sm font-medium text-gray-700">
+                    {/* gap es lo q hace la separacion entre youtube instagram y face, creo q es 28 y 32 */}
                     <a href="#">Youtube</a>
                     <a href="#">Facebook</a>
                     <a href="#">Instagram</a>
@@ -48,8 +59,8 @@ const Hero = () => {
             </div>
 
             {/* Columna derecha (fondo amarillo) - SIN CAMBIOS */}
-            <div className="w-full md:w-1/2 relative bg-[#F7C948] overflow-hidden min-h-[400px] md:min-h-screen">
-                <div className="px-4 md:px-16 py-12 flex items-center justify-end">
+            <div className="w-full md:w-1/2 relative bg-[#FED65D] overflow-hidden min-h-[400px] md:min-h-screen">
+                <div className="px-4 md:px-20 py-12 flex items-center justify-end">
                     <Header />
                 </div>
                 <div className="absolute bottom-0 left-0">

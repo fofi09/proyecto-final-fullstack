@@ -2,7 +2,7 @@ import React from 'react';
 
 const Cards = () => {
   return (
-    <section className="bg-[#FAF8F1] py-16 px-4 md:px-16 flex flex-col md:flex-row items-start gap-12 md:gap-24">
+    <section className="bg-[#F9F5E8] py-16 px-4 md:px-16 flex flex-col md:flex-row items-start gap-12 md:gap-24">
       
       {/* Columna izquierda: Título, texto y las dos tarjetas pequeñas */}
       <div className="flex-1 flex flex-col gap-8 md:gap-12 max-w-lg">
@@ -43,52 +43,20 @@ const Cards = () => {
       {/* Columna derecha: Tarjeta grande */}
       <div className="w-[450px] md:ml-[130px] md:mr-0">
         <div className="bg-white overflow-hidden flex flex-col border-b-[8px] border-white">
-          {/* <img
-            src="/perfume1.jpg" 
+          <img
+            src="/g.png" 
             alt="Safe Water"
             className="w-full h-[354px] object-cover"
-            style={{ objectPosition: 'center' }}
-          /> */}
-          {/* <img
-  src="/perfume1.jpg" 
-  alt="Safe Water"
-  className="w-full h-[354px] object-cover"
-  style={{ objectPosition: 'top-center-bottom' }}
-
-
-//  {/* <img
-//             src="/perfume1.jpg" 
-//             alt="Safe Water"
-//             className="w-full object-cover"
-//             style={{ height: '355px', objectPosition: 'center' }}
-//           /> */}
-
-          {/* <img
- src="/perfume2.jpg" 
- alt="Safe Water"
-className="w-full h-[354px] object-contain"
-//  style={{ objectPosition: 'center' }}
-  style={{ objectPosition: '50% 50%' }}
- /> */}
-   <img
- src="/g.png" 
-alt="Safe Water"
- className="w-full h-[354px] object-cover"
- style={{ objectPosition: '20% 50%' }}
- />
-
-
-
+            style={{ objectPosition: '20% 50%' }}
+          />
           <p className="mt-2 text-sm font-semibold text-gray-800 p-2">Safe Water</p>
-          <a href="#" className="mt-auto text-sm font-medium text-emerald-700 hover:text-emerald-800 self-start">
-              View All Campaign
-          </a>
         </div>
+        <a href="#" className="mt-8 text-sm font-medium text-emerald-700 hover:text-emerald-800 self-start">
+          View All Campaign
+        </a>
       </div>
     </section>
   );
 };
 
 export default Cards;
-
-
