@@ -31,7 +31,7 @@ const Cards = () => {
           {/* Tarjeta 2: Food Bank */}
           <div className="bg-white overflow-hidden flex-1 flex flex-col border-b-[16px] border-white">
             <img
-              src="/covid.jpg" 
+              src="/planta1.jpg" 
               alt="Food Bank"
               className="w-full h-32 md:h-52 object-cover"
             />
