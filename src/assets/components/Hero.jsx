@@ -12,13 +12,13 @@ const Hero = () => {
                     
                     <div className="mt-12 md:-mt">
                         {/* AUMENTO DEL TAMAÑO DEL TÍTULO */}
-                        <h1 style={{ fontFamily: 'Recoleta semi bond' }} className="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900 mb-4 md:mb-12">
+                        <h1 style={{ fontFamily: 'Caprasimo, serif' }} className="text-4xl md:text-6xl font-extrabold leading-tight text-gray-900 mb-4 md:mb-12">
                             Charity Is An <br />
                             Act Of A Soft <br /> Heart.
                         </h1>
                         <p className="text-sm md:text-base text-gray-600 mb-4 md:mb-8 max-w-md">
                             We've spent the last 5 years helping over 25,00000 <br/>
-                            teams just like yourself create and sustain  <br/>
+                            teams just like yourself create and sustain  <br/>
                             successful online support.
                         </p>
                         <div className="flex flex-col md:flex-row items-center gap-4 md:gap-6">
@@ -30,7 +30,7 @@ const Hero = () => {
                             <img src="/flecha.png" alt="Icono de la gorra" className="w-16 h-16" />
                             
                             <div className="relative flex-shrink-0 w-28 h-28 flex items-center justify-center ml-1">
-                                {/* aqui arriba ml controla en q posicion estara td  */}
+                                {/* aqui arriba ml controla en q posicion estara td  */}
                                 <svg viewBox="0 0 100 100" className="absolute inset-0 w-full h-full">
                                     <defs>
                                         <path id="circle" d="M 50, 50 m -40, 0 a 40,40 0 1,1 80,0 a 40,40 0 1,1 -80,0"></path>

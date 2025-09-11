@@ -44,7 +44,7 @@ const Cards = () => {
       <div className="w-[450px] md:ml-[130px] md:mr-0">
         <div className="bg-white overflow-hidden flex flex-col border-b-[8px] border-white">
           <img
-            src="/g.png" 
+            src="/perfume1.jpg" 
             alt="Safe Water"
             className="w-full h-[354px] object-cover"
             style={{ objectPosition: '20% 50%' }}
